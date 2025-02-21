@@ -47,3 +47,68 @@
 
 //  Q   #   6
 
+// let firstName = prompt("your 1st name ")
+// let lastName = prompt(" your last name ")
+
+
+// alert (firstName.concat(lastName) + " Welcome")
+
+
+//  Q   #   7
+
+// let city = "hyderabad"
+// let updatedCity =  city.replace("hyder", "Islam")
+
+// document.write("city: " + city + "<br />" )
+// document.write("Updated city: " + updatedCity + "<br />" )
+
+
+//  Q   #   8
+
+
+// let msg = "Ali and Sami are best friends. They play cricket and football together."
+
+// document.write("Message: " + msg + "<br />")
+// document.write("Update Message: " + msg.replace(/and/g, "&"))
+
+
+//  Q   #   9
+
+
+// let str = "472"
+// document.write("Value: " +str + "<br />")
+// document.write("Type: "+ typeof str + "<br />")
+
+// document.write("<br />")
+
+// str = +"472"
+// document.write("Value: " +str + "<br />")
+// document.write("Type: " + typeof str + "<br />")
+
+
+//  Q   #   10
+
+
+// let input = prompt("Enter any text")
+
+// document.write("User Input: "+ input + "<br />")
+// document.write("User Input in uppercase: "+ input.toUpperCase())
+
+
+//  Q   #   11
+
+
+// let userInput = prompt("Enter any text")
+
+// document.write("User Input: "+ userInput + "<br />")
+// document.write("User Input in title case: "+ userInput[0].toUpperCase() + userInput.slice(1))
+
+
+//  Q   #   12
+
+// let num = 35.36
+// num = "35.36"
+// let result = num.replace(".", "")
+
+// document.write("Number: "+ num + "<br />")
+// document.write("Result: "+ result + "<br />")
