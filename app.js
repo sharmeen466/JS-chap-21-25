@@ -112,3 +112,105 @@
 
 // document.write("Number: "+ num + "<br />")
 // document.write("Result: "+ result + "<br />")
+
+
+//  Q   #   13
+
+// let userName = prompt("Enter your name")
+// let charCode;
+
+// for (let i = 0; i < userName.length; i++){
+//     charCode = userName.charCodeAt(i);
+
+//     if (charCode == 33 || charCode == 44 || charCode == 46 || charCode == 64){
+//         alert("Please Enter a valid username")
+//     }
+// }
+
+
+//  Q   #   14
+
+
+// let arr = ["cake", "apple pie", "cookie", "chips", "patties"]
+// let search = prompt("Welcome to ABC bakery. what do you want to order sir/ ma'am?").toLowerCase();
+
+// let flag = false
+
+// for (let i = 0; i < arr.length; i++){
+//     if (search == arr[i]){
+//       flag = true
+//     }
+// }
+
+// if (flag){
+//     document.write(search + " is avalable at index "+ arr.indexOf(search) + " in our bakery")
+// }
+// else {
+//     document.write("We are sorry. "+ search+ " is not available in our bakery")
+// }
+
+
+//  Q   #   15
+
+// let pswrd = prompt("Enter a password at least 6 charactors")
+
+// // checking length of pswrd
+// if (pswrd.length <= 6) {
+//     alert("Password must be atleast 6 charactors long")
+// }
+
+
+// // checking alph nd numbrs
+// else if (!(/[a-zA-Z]/.test(pswrd) && /[0-9]/.test(pswrd))) {
+//     alert("Password must be contain both alphabets and letter")
+// }
+
+
+// //checking the begining numbrs
+// //48-57
+// else if ((pswrd.charCodeAt(0) >= 48 && pswrd.charCodeAt(0) <= 57)) {
+//     alert("Password cannot begin with a number")
+// }
+
+// else{
+//     alert("please enter a valid password")
+// }
+
+
+//  Q   #   16
+
+// let uni = "University of Karachi";
+
+// let str = uni.split("", uni.length);
+// // document.write(str )
+
+// for(let i = 0; i < str.length; i++){
+//     document.write(str[i] + "<br />")
+// }
+
+
+//  Q   #   17
+
+// let userInput = "Pakistan"
+
+// document.write("User Input: "+ userInput + "<br />")
+// document.write("Last character of Input: "+ userInput.lastIndexOf("n") + "<br />")
+
+
+//  Q   #   18
+
+// let str = "The quick brown fox jumps over the lazy dog"
+// let lowerCase = str.toLowerCase()
+// let words = lowerCase.split(" ")
+// let count = 0
+
+// for (let i = 0; i < words.length; i++){
+//     if (words[i] === "the"){
+//         count++
+//     }
+// }
+// document.write("Text: "+ str + "<br />")
+// document.write("There are "+ count + " occurance(s) of 'the'")
+
+
+//......................chap # 21-25 END..............................
